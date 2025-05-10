@@ -1,4 +1,4 @@
-<footer class="footer mt-5 py-3 bg-dark text-white">
+<footer class="footer mt-5 py-3" style="background-color: #A0C878;">
     <div class="container">
         <div class="row">
             <div class="col-md-5">
@@ -8,9 +8,9 @@
             <div class="col-md-5 ms-auto">
                 <h5>Quick Links</h5>
                 <ul class="list-unstyled">
-                    <li><a href="index.php" class="text-white">Home</a></li>
-                    <li><a href="products.php" class="text-white">Dashboard</a></li>
-                    <li><a href="contact.php" class="text-white">FastAPI</a></li>
+                    <li><a href="index.php" class="text-dark">Home</a></li>
+                    <li><a href="products.php" class="text-dark">Dashboard</a></li>
+                    <li><a href="contact.php" class="text-dark">FastAPI</a></li>
                 </ul>
             </div>
         </div>

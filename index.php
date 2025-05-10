@@ -58,7 +58,7 @@
                         <div>
                             <h2><b>Dashboard</b></h2>
                             <p>Dashboard untuk visualisasi data yang informatif dan mudah dipahami oleh pengguna. Tampilan dashboard interaktif dibuat agar informasi ditunjukkan dengan cara yang mudah dipahami dan mudah diakses oleh pengguna. Ini memungkinkan pengguna melihat tren kinerja secara visual. Oleh karena itu, dashboard ini berfungsi sebagai alat bantu untuk memantau dan membuat keputusan tentang kebijakan kehutanan yang berkelanjutan.</p>
-                            <a class="btn btn-primary" href="dashboard.php" role="button">Selengkapnya</a>
+                            <a class="btn btn-primary" href="/capstone_brb/dashboardcs/index.php" role="button">Selengkapnya</a>
                         </div>
                     </div>
                     <div class="col-md-6 d-flex justify-content-center align-items-center">
@@ -77,7 +77,7 @@
                         <div>
                             <h2><b>FastAPI</b></h2>
                             <p>FastAPI untuk menyediakan akses prediktif secara terprogram. API ini digunakan untuk memprediksi Kategori Capaian Realisasi RKT PBPH berdasarkan fitur-fitur input yang diberikan, seperti rasio realisasi, target, dan jenis hutan.</p>
-                            <a class="btn btn-primary" href="fastapi" role="button">Selengkapnya</a>
+                            <a class="btn btn-primary" href="/capstone_brb/webapi/index.php" role="button">Selengkapnya</a>
                         </div>
                     </div>
                 </div>
