@@ -4,9 +4,9 @@ header("Content-Type: text/csv; charset=utf-8");
 header("Content-Disposition: attachment; filename=capstone_data.csv");
 
 $host = "localhost";     
-$username = "root";      
-$password = "";          
-$database = "capstone";  
+$username = "u407076436_capstone";      
+$password = "[I]huB9s";          
+$database = "u407076436_capstone";  
 
 $conn = new mysqli($host, $username, $password, $database);
 

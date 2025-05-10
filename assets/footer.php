@@ -8,9 +8,9 @@
             <div class="col-md-5 ms-auto">
                 <h5>Quick Links</h5>
                 <ul class="list-unstyled">
-                    <li><a href="index.php" class="text-dark">Home</a></li>
-                    <li><a href="products.php" class="text-dark">Dashboard</a></li>
-                    <li><a href="contact.php" class="text-dark">FastAPI</a></li>
+                    <li><a href="/index.php" class="text-dark">Home</a></li>
+                    <li><a href="/dashboardcs/index.php" class="text-dark">Dashboard</a></li>
+                    <li><a href="/webapi/index.php" class="text-dark">FastAPI</a></li>
                 </ul>
             </div>
         </div>
