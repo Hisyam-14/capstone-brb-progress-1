@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-5">
                 <h5>About Us</h5>
-                <p>Selamat datang di Website Resmi Dinas Kehutanan Provinsi Kalimantan Timur. Website ini sebagai sarana publikasi untuk memberikan Informasi dan gambaran tentang Dinas Kehutanan Provinsi Kalimantan Timur dalam melaksanakan pelayanan tugas informasi.</p>
+                <p>Dinas Kehutanan Provinsi Kalimantan Timur merupakan lembaga pemerintah yang bertugas mengelola hutan secara berkelanjutan. Berdiri sejak 1964, lembaga ini terus berkembang, dan kini mengacu pada Peraturan Gubernur Kaltim Nomor 43 Tahun 2023.</p>
             </div>
             <div class="col-md-5 ms-auto">
                 <h5>Quick Links</h5>
