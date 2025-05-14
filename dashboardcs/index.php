@@ -100,28 +100,14 @@ header('Content-Type: text/html; charset=utf-8');
         <!-- Main Content Area -->
         <div class="container-fluid px-4 py-3">
           <div class="row mb-4">
-            <div class="col-md-6">
-              <div class="card shadow-sm">
-                <div class="card-body">
-                  <h5 class="card-title"><i class="bi bi-cloud-upload me-2"></i>Upload Data</h5>
-                  <div class="input-group">
-                    <input class="form-control" type="file" id="csvFile" accept=".csv">
-                    <button class="btn btn-success" id="uploadBtn">
-                      <i class="bi bi-upload me-1"></i> Upload
-                    </button>
-                  </div>
-                  <div id="fileStatus" class="alert alert-info mt-2">
-                    Mengambil data dari database...
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6">
+            <div class="col-12">
               <div class="card shadow-sm">
                 <div class="card-body">
                   <h5 class="card-title"><i class="bi bi-info-circle me-2"></i>Informasi Dataset</h5>
-                  <p class="mb-1">Dataset ini berisi data kehutanan Provinsi Kalimantan Timur yang mencakup informasi tentang realisasi produksi kehutanan.</p>
-                  <p class="mb-0">Gunakan menu navigasi untuk melihat visualisasi data dalam berbagai bentuk.</p>
+                  <p class="mb-0">Dataset ini berisi data kehutanan Provinsi Kalimantan Timur yang mencakup informasi tentang realisasi produksi kehutanan.</p>
+                  <div id="fileStatus" class="alert alert-info mt-2">
+                    Mengambil data dari database...
+                  </div>
                 </div>
               </div>
             </div>

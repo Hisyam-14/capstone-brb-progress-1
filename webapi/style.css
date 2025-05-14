@@ -3,7 +3,7 @@
 /* Mengatur font, background, warna teks, dan layout dasar body */
 body {
   font-family: 'Poppins', Arial, sans-serif;
-  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  background-color: #ffffff;
   color: #2c3e50;
   margin: 0;
   justify-content: center;
@@ -30,7 +30,7 @@ header h1 {
   background: rgb(255, 255, 255);
   padding: 40px 50px;
   border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   max-width: 520px;
   width: 100%;
   box-sizing: border-box;
@@ -44,13 +44,6 @@ h2 {
   font-weight: 600;
   font-size: 1.8rem;
 }
-
-/* Layout form menggunakan grid dengan dua kolom dan jarak antar elemen */
-/* form {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px 25px;
-} */
 
 /* Styling label input */
 label {
@@ -216,7 +209,7 @@ legend {
   gap: 12px;
   align-items: center;
   margin-top: 20px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 
 /* Penyesuaian responsif untuk layar kecil */
@@ -234,5 +227,3 @@ legend {
     width: 100%;
   }
 }
-
-
