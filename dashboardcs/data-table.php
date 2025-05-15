@@ -54,43 +54,6 @@ header('Content-Type: text/html; charset=utf-8');
               </a>
             </li>
           </ul>
-          <div class="d-flex">
-            <div class="dropdown">
-              <button class="btn btn-outline-light dropdown-toggle" type="button" id="filterDropdown" data-bs-toggle="dropdown">
-                <i class="bi bi-funnel me-1"></i> Filter
-              </button>
-              <div class="dropdown-menu dropdown-menu-end p-3" style="width: 250px;">
-                <h6 class="dropdown-header">Filter Data</h6>
-                <div class="mb-3">
-                  <label for="yearFilter" class="form-label">Tahun</label>
-                  <select id="yearFilter" class="form-select form-select-sm">
-                    <option value="all">Semua Tahun</option>
-                  </select>
-                </div>
-                <div class="mb-3">
-                  <label for="forestTypeFilter" class="form-label">Jenis Hutan</label>
-                  <select id="forestTypeFilter" class="form-select form-select-sm">
-                    <option value="all">Semua Jenis</option>
-                    <option value="0">Hutan Alam</option>
-                    <option value="1">Hutan Tanaman</option>
-                  </select>
-                </div>
-                <div class="mb-3">
-                  <label for="achievementFilter" class="form-label">Kategori Capaian</label>
-                  <select id="achievementFilter" class="form-select form-select-sm">
-                    <option value="all">Semua Kategori</option>
-                    <option value="0">Tidak Ada Realisasi</option>
-                    <option value="1">1-50%</option>
-                    <option value="2">51-100%</option>
-                    <option value="3">>100%</option>
-                  </select>
-                </div>
-                <div class="d-grid">
-                  <button id="applyFilters" class="btn btn-sm btn-success">Terapkan Filter</button>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </nav>
@@ -117,15 +80,6 @@ header('Content-Type: text/html; charset=utf-8');
               <div class="card shadow-sm">
                 <div class="card-header bg-white d-flex justify-content-between align-items-center">
                   <h5 class="card-title mb-0">Data Mentah</h5>
-                  <div class="d-flex">
-                    <div class="input-group me-2">
-                      <span class="input-group-text"><i class="bi bi-search"></i></span>
-                      <input type="text" id="tableSearch" class="form-control" placeholder="Cari data...">
-                    </div>
-                    <button id="exportBtn" class="btn btn-success">
-                      <i class="bi bi-download me-1"></i> Export CSV
-                    </button>
-                  </div>
                 </div>
                 <div class="card-body">
                   <div class="table-responsive">
